@@ -1,0 +1,49 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="input-group mb-5">
+                <input type="text" [(ngModel)]="namePokemon" class="form-control" placeholder="Buscar Pokémon" aria-label="Buscar Pokémon">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" (click)="searhPokemon()">Buscar</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>   
+    <div class="row">
+        @if (sw) {
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Numero</th>
+                            <th>Nombre</th>
+                            <th>Tipo</th>
+                            <th>habilidades
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí se insertarán los Pokémon -->
+                        <tr>
+                            <td>{{nro}}</td>
+                            <td>{{name}}</td>
+                            <td>{{tipo}}</td>
+                            <td>{{habilidades}}</td>
+                            <!--[routerLink]="['/view']"-->
+                            <td><button [routerLink]="['/pokemon/view',name]"   class="btn btn-primary">Ver</button></td>
+                        </tr>
+                        <!-- Repite el código de la fila para cada Pokémon -->
+                    </tbody>
+                </table>
+            </div>      
+        }
+        @else {
+            <div class="col-md-12">
+                <div class="alert alert-info" role="alert">
+                    No se ha realizado ninguna búsqueda.
+                </div>
+            </div>                        
+        }
+    </div>
+</div>

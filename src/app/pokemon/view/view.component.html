@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header" style="text-align: center;">{{ namePokemon | uppercase }}</div>
+                <img src="URL_DE_LA_IMAGEN" class="card-img-top" alt="Imagen de Pokémon" [src]="img">
+                <div class="card-body">
+                    <h5 class="card-title">{{ namePokemon | uppercase }}</h5>
+                    <h6 class="card-title"># {{ nro }}</h6>
+                    <p class="card-text">Poderes {{habilidades}}</p>
+                    <p class="card-text">Tipo {{tipo}}</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

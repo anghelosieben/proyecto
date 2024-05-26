@@ -1,0 +1,57 @@
+<div class="container">
+
+    <h1>Register User</h1>
+    <a href="" routerLink="/" class="btn btn-primary">Back</a>
+    <form [formGroup]="formRegister" (ngSubmit)="registerUser()">
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input formControlName="name" id="name" type="text" class="form-control">
+            @if(form['name'].touched && form['name'].invalid){
+            <div class="alert alert-danger">
+                @if(form['name'].errors && form['name'].errors['required']){
+                <div>Name is required.</div>
+                }
+            </div>
+            }
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input formControlName="email" id="email" type="text" class="form-control">
+            @if(form['email'].touched && form['email'].invalid){
+            <div class="alert alert-danger">
+                @if(form['email'].errors && form['email'].errors['required']){
+                <div>Email is required.</div>
+                }
+            </div>
+            }
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input formControlName="password" id="password" type="password" class="form-control">
+            @if(form['password'].touched && form['password'].invalid){
+            <div class="alert alert-danger">
+                @if(form['password'].errors && form['password'].errors['required']){
+                <div>Password is required.</div>
+                }
+            </div>
+            }
+        </div>
+        
+        <div class="form-group">
+            <label for="password_confirmation">Password Confirmation:</label>
+            <input formControlName="password_confirmation" id="password_confirmation" type="password" class="form-control">
+            @if(form['password_confirmation'].touched && form['password_confirmation'].invalid){
+            <div class="alert alert-danger">
+                @if(form['password_confirmation'].errors && form['password_confirmation'].errors['required']){
+                <div>Password is required.</div>
+                }
+            </div>
+            }
+        </div>
+
+        <button class="btn btn-primary" type="submit" [disabled]="!formRegister.valid">Create</button>
+    </form>
+</div>

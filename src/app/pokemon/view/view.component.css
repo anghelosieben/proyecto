@@ -1,0 +1,4 @@
+.card-img-top {
+    width: 200px;  /* Ajusta el valor según tus necesidades */
+    height: auto;  /* Mantén esto en auto para preservar la relación de aspecto de la imagen */
+  }
