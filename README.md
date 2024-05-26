@@ -1,3 +1,10 @@
+Proyecto modulo I,
+se utilizo la API de Pokemon  
+https://mock-api.binaryboxtuts.com
+se configuro un Login con guards, la aplicacion mustra un buscador de pokemon y muestra una tarjeta con el pokemon
+Ejecutar npm install
+
+
 # Proyecto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
