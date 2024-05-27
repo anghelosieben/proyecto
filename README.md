@@ -7,6 +7,7 @@ Ejecutar npm install
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/4733a0b4-9475-4e4a-a2c0-4f3e89a49dbe)
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/bbdf6485-593a-4fd0-9742-5110dba798a5)
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/f44319fe-a836-4864-9144-87d85aefbabd)
+![image](https://github.com/anghelosieben/proyecto/assets/43994201/5cf20794-ef70-4ba9-88cf-173fcab7a358)
 
 
 # Proyecto
