@@ -3,6 +3,7 @@ se utilizo la API de Pokemon
 https://mock-api.binaryboxtuts.com
 se configuro un Login con guards, la aplicacion mustra un buscador de pokemon y muestra una tarjeta con el pokemon
 Ejecutar npm install
+![image](https://github.com/anghelosieben/proyecto/assets/43994201/1ba54980-bc4d-40a9-b57b-ffe333b2e0a1)
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/4733a0b4-9475-4e4a-a2c0-4f3e89a49dbe)
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/bbdf6485-593a-4fd0-9742-5110dba798a5)
 ![image](https://github.com/anghelosieben/proyecto/assets/43994201/f44319fe-a836-4864-9144-87d85aefbabd)
